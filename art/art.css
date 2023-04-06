@@ -1,0 +1,35 @@
+/* make sure to add a border around every section to see every box */
+div{
+    border: 1px solid blue;
+}
+/* chooses row to add flex bexause its the parent folder now they should display as an inline */
+.top-row{
+    display: flex;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+/* to select div on one class use class name > div */
+.top-row > div{
+    background-color: skyblue;
+    /* flex to evenly distribute or space them */
+    flex: 1;
+}
+/* to onlyu select a specific child from a parent */
+.top-row :nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+
+    /* margin does things in top, right bottom left */
+    /* margin: 0 10px 0 10px; */
+}
+
+.mid-row{
+    height: 400px;
+    background-color: skyblue;
+    margin-bottom: 10px;
+}
+bottom-row {
+    height: 20px;
+    background-color: yellowgreen;
+}

@@ -1,0 +1,11 @@
+
+li:nth-child(even){
+    border:1px solid red;
+}
+
+/* selects all the even and you can change the value inside the bracket accordingly to target and modify a certain section */
+
+p:hover{
+    background-color: yellow;
+}
+/* gets you a yellow color when you hover */
