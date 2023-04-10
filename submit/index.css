@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+
+div {
+    border: 1px solid black;
+    /* justify-content: space-between; */
+}
+
+#main {
+    display: flex;
+    /* justify-content: space-between; */
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+#main div{
+    background-color: aquamarine;
+    flex:1;
+}
+#main :nth-child(2){
+    margin:0 10px 0 10px;
+}
+.main{
+    height: 400px;
+    background-color: aqua;
+
+}
+.bottom{
+    height: 20px;
+    background-color: lightblue;
+    margin-top: 10px;
+}
+
+#circle div{
+    /* display: flex; */
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: plum;
+    /* position: relative; */
+}
+ #circle .one{
+    position: relative;
+    right: -200px;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+#circle .two{
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    /* right: -150px; */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: darksalmon;
+    z-index: auto;
+}
+#circle .three{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top: 120px;
+    background-color: purple;
+}
+#circle .four{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    background-color: yellow;
+}
+#circle .five{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    background-color: chartreuse;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid lightgoldenrodyellow;
+    border-bottom: 50px solid transparent;
+    position: relative;
+    bottom: 133px;
+    left: 500px;
+  }
+  .triangle2{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 300px solid burlywood;
+    position: relative;
+    bottom: 433px;
+    left: 580px;
+  }
+
+  
+
+
